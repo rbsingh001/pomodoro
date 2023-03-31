@@ -1,0 +1,45 @@
+.container
+{
+    margin: auto;
+    height:460px;
+    width: 220px;
+    background-color: aqua;
+    
+}
+#upperdiv
+{
+    height: 50%;
+    background-color: aliceblue;
+}
+#sessionHeading
+{
+    text-align: center;
+}
+#breakHeading
+{
+    text-align: center;
+}
+
+#showtime
+{
+    
+    font-size: 50px;
+    text-align: center;
+    height: 50%;
+}
+#settime
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#lastdiv
+{
+    display: flex;
+    justify-content: space-around;
+}
+.hidden
+{
+    display:none ;
+}
