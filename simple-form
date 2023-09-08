@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body >
+    <div style=" width: 600px;height: auto; margin-left: auto; margin-right: auto; border: 2px solid;padding: 5px;">
+        <h3 style="color:orange; text-align: center;" >Book a call</h3>
+        <p style="text-align: center;">
+            Book a call slot and our representative will call you within 1hr of selected time.
+        </p>
+        <hr>
+        <label for="name">Name:</label><br>
+        <input type="text" name="username" id="name" style="width: 98%;">
+        <br>
+        <label for="mail">Email:</label><br>
+        <input type="text" name="email" id="mail" style="width: 98%;">
+        <br>
+
+        <label for="phone">Phone:</label> <br>
+        <input type="text" id="phone" name="contact" style="width: 98%;">
+        <br>
+
+        <label for="date">Time for call:</label><br>
+        <input type="date" id="date" name="date" style="width: 48%; " >
+        <input type="time" id="time" name="time" style="width: 49%;">
+
+        <br><br>
+        <button  onclick="myFunction();" value="GET A CALL" style="background-color:yellow; width:98%;">GET A CALL</button>
+
+
+
+
+
+    </div>
+    <script>
+        function myFunction() {
+            let name = document.getElementById("name");
+            let mail = document.getElementById("mail");
+            let ph = document.getElementById("phone");
+            let d = document.getElementById("date");
+            let t = document.getElementById("time");
+
+            console.log(name.value);
+            console.log(mail.value);
+            console.log(ph.value);
+            console.log(d.value);
+            console.log(t.value);
+        }
+    
+
+
+
+    </script>
+</body>
+</html>
